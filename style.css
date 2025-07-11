@@ -1,15 +1,22 @@
 body {
-  background-color: #121212;
-  color: white;
   font-family: Arial, sans-serif;
   text-align: center;
-  padding: 50px;
+  padding: 2rem;
+  background-color: #121212;
+  color: #fff;
 }
+
 button {
-  background-color: #00b894;
-  color: white;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #00d8a7;
+  color: #000;
   border: none;
+  border-radius: 10px;
   cursor: pointer;
+}
+
+#bpm {
+  margin-top: 2rem;
+  font-size: 2rem;
 }
